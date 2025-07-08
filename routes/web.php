@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\VehicleInfoController;
 use App\Http\Controllers\ChatGptController;
 use App\Http\Controllers\CommercialInfoController;
+use App\Http\Controllers\PreferenciasSaludController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -23,6 +24,11 @@ Route::post('/api/conexion_chatgpt', [ChatGptController::class, 'handle'])
     ]);
 
 Route::get('/api/comercial-info', [CommercialInfoController::class, 'show'])
+    ->withoutMiddleware([
+        Illuminate\Foundation\Http\Middleware\VerifyCsrfToken::class,
+    ]);
+
+Route::get('/api/opciones_preferencias_salud', [PreferenciasSaludController::class, 'index'])
     ->withoutMiddleware([
         Illuminate\Foundation\Http\Middleware\VerifyCsrfToken::class,
     ]);
