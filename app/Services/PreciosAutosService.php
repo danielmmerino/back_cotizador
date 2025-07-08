@@ -15,6 +15,7 @@ class PreciosAutosService
     public function search(string $marca, string $modelo, string|int $anio): array
     {
         $marca = $this->normalize($marca);
+        $modelo = explode(' ', $modelo)[0];
         $modelo = $this->normalize($modelo);
         $anio = (string) $anio;
 
