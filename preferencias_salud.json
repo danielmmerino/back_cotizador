@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "descripcion":"Monto de cobertura - Suma asegurada"
+    },
+    {
+        "id": "2",
+        "descripcion":"Red de hospitales donde atenderme"
+    },
+    {
+        "id": "3",
+        "descripcion":"Precio que pagaré por el servicio"
+    }
+]

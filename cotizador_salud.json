@@ -1,0 +1,29 @@
+[
+  {
+    "idProducto": "1",
+    "orden": "1",
+    "nombrePorducto": "Confiplus",
+    "nombreAseguradora": "Confiamed",
+    "valor": "125.54",
+    "urlImagenAseguradora": "http://",
+    "puntuacion": "5"
+  },
+  {
+    "idProducto": "2",
+    "orden": "2",
+    "nombrePorducto": "Saludsa 3G",
+    "nombreAseguradora": "Saludsa",
+    "valor": "146.74",
+    "urlImagenAseguradora": "http://",
+    "puntuacion": "4"
+  },
+  {
+    "idProducto": "3",
+    "orden": "3",
+    "nombrePorducto": "Humana 123",
+    "nombreAseguradora": "Humana",
+    "valor": "176.23",
+    "urlImagenAseguradora": "http://",
+    "puntuacion": "3"
+  }
+]
